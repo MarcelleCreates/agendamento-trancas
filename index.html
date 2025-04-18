@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento e valores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Título -->
+    <section id="titulo">
+        <div class="titulo-container">
+            <img src="logo.png" alt="Logo da empresa" class="logo">
+            <h1>Sistema de Agendamento</h1>
+        </div>
+    </section>
+
+    <!-- Valores das tranças -->
+    <section id="Trança">
+        <h2>Valores das Tranças</h2>
+        <div class="produtos-container">
+            <button class="produto-box">
+                <img src="nagotopo.jpg" alt="Trança Nagô tradicional">
+                <p>Trança Nagô</p>
+                <p class="valor">R$ 30,00</p>
+            </button>
+            <button class="produto-box">
+                <img src="fotobox.jpg" alt="Box braids">
+                <p>Box Braids</p>
+                <p class="valor">R$ 150,00</p>
+            </button>
+            <button class="produto-box">
+                <img src="nagotiara.jpg" alt="Nagô tiara">
+                <p>Trança nagô Tiara</p>
+                <p class="valor">R$ 60,00</p>
+            </button>
+        </div>
+    </section>
+
+    <!-- Horários Disponíveis -->
+    <section id="horarios">
+        <h2>Horários Disponíveis</h2>
+        <div class="horarios-container">
+            <button class="horario-box">09:00</button>
+            <button class="horario-box">11:00</button>
+            <button class="horario-box">12:30</button>
+            <button class="horario-box">13:30</button>
+            <button class="horario-box">16:00</button>
+            <button class="horario-box">18:00</button>
+        </div>
+    </section>
+
+    <!-- Sistema de Agendamento -->
+    <section id="agendamento">
+        <h2>Agende seu horário</h2>
+        <form id="formAgendamento">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="TrançaInput" placeholder="Trança" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <input type="datetime-local" id="data" required>
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
